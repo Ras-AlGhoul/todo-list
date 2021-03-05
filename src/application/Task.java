@@ -70,7 +70,7 @@ public class Task {
 
         @Override
         public String toString() {
-            return id + "," + title + "," + date.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) + "," + status + "," + project;
+            return "ID: " + id + ", " + "Title: " + title + ", " + "Due Date: " +  date.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")) + ", " + "Status: "+ status + ", " + "Project: "  + project;
         }
 
     }

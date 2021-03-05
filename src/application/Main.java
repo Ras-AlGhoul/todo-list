@@ -1,6 +1,6 @@
 package application;
 import java.time.LocalDate;
-import java.util.Date;
+
 
 import static application.Task.createTask;
 
@@ -8,9 +8,9 @@ public class Main {
 
 public static void main (String [] args){
 
-    LocalDate date = LocalDate.of(2020, 12, 12);
+    LocalDate date = LocalDate.of(2021, 03, 07);
 
-    System.out.println(createTask("1", "Coffee", date, "active", "coffe project"));
+    System.out.println(createTask(" 1", "Sign contracts", date, "active", "landscape project"));
 
 }
 
