@@ -18,7 +18,7 @@ it's advisable to take a look at the user interface to get a better understandin
 
 
 # Technologies Used
-Java
+Java, gradle
 
 # Project Status
 The Project is at the final development phase but still not done, this project will be done by 2021-03-19.
