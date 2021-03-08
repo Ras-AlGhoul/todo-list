@@ -10,6 +10,10 @@ can also quit and save the current task list to file, and then restart the appli
 <img width="668" alt="Screenshot 2021-03-08 at 10 15 26 AM" src="https://user-images.githubusercontent.com/77113737/110300725-8205cd00-7ff7-11eb-9ae1-01be3cc027b7.png">
 <img width="442" alt="Screenshot 2021-03-08 at 10 15 51 AM" src="https://user-images.githubusercontent.com/77113737/110300727-8336fa00-7ff7-11eb-9441-da6999378ffc.png">
 
+# Class Diagram
+![Screenshot 2021-03-08 at 10 59 55 AM](https://user-images.githubusercontent.com/77113737/110306046-a9f82f00-7ffd-11eb-8efc-04bf27a5ec02.png)
+
+
 # Technologies Used
 Java
 
