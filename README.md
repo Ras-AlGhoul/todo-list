@@ -6,7 +6,7 @@ can also quit and save the current task list to file, and then restart the appli
 # Application Instruction
 
 The user will be able to run the program on the terminal of any code reader program of choice, as long as it's suitable for reading Java files.
-it's advisable to take a look at the user interface to get a better understanding on how to run the application and what's to expect.
+it's advisable to take a look at the user interface to get a better understanding on how to run the application and what to expect.
 
 # User-Interface
 <img width="466" alt="Screenshot 2021-03-08 at 10 14 40 AM" src="https://user-images.githubusercontent.com/77113737/110300719-7fa37300-7ff7-11eb-99a7-7cc8b9f72b30.png">
