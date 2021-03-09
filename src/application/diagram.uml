@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="963.7341765873018" y="507.0">application.actions.Display</node>
+    <node x="1188.7341765873018" y="518.0">application.save_read.StoreData</node>
+    <node x="747.1076388888889" y="403.0">application.actions.SortByTitle</node>
+    <node x="560.1076388888889" y="877.0">application.Main</node>
+    <node x="67.10763888888891" y="403.0">application.actions.EditTask</node>
+    <node x="737.5131448412699" y="0.0">application.app.Menu</node>
+    <node x="549.1076388888889" y="403.0">application.actions.CreateTask</node>
+    <node x="923.1076388888889" y="403.0">application.actions.SortByDate</node>
+    <node x="298.10763888888886" y="403.0">application.save_read.ReadData</node>
+    <node x="110.13814484126982" y="10.0">application.app.Task</node>
+    <node x="70.01314484126988" y="518.0">application.actions.ManageTask</node>
+    <node x="513.1076388888889" y="683.0">application.app.ToDoList</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="application.actions.Display" target="application.actions.SortByTitle">
+      <point x="-68.0" y="-38.0" />
+      <point x="997.7341765873018" y="477.0" />
+      <point x="864.1076388888889" y="477.0" />
+      <point x="39.0" y="27.0" />
+    </edge>
+    <edge source="application.actions.Display" target="application.app.Menu">
+      <point x="68.0" y="-38.0" />
+      <point x="1133.7341765873018" y="487.0" />
+      <point x="1118.232638888889" y="487.0" />
+      <point x="1118.232638888889" y="293.0" />
+      <point x="910.124255952381" y="293.0" />
+      <point x="53.111111111111086" y="126.5" />
+    </edge>
+    <edge source="application.actions.Display" target="application.app.ToDoList">
+      <point x="51.0" y="38.0" />
+      <point x="1116.7341765873018" y="633.0" />
+      <point x="713.2076388888889" y="633.0" />
+      <point x="69.60000000000002" y="-72.0" />
+    </edge>
+    <edge source="application.app.ToDoList" target="application.actions.ManageTask">
+      <point x="-87.00000000000011" y="-72.0" />
+      <point x="556.6076388888888" y="643.0" />
+      <point x="117.51314484126988" y="643.0" />
+      <point x="-47.5" y="27.0" />
+    </edge>
+    <edge source="application.actions.SortByDate" target="application.app.Task">
+      <point x="-39.75" y="-27.0" />
+      <point x="962.8576388888889" y="313.0" />
+      <point x="336.0756448412698" y="313.0" />
+      <point x="105.4375" y="116.5" />
+    </edge>
+    <edge source="application.actions.CreateTask" target="application.app.ToDoList">
+      <point x="44.5" y="27.0" />
+      <point x="682.6076388888889" y="487.0" />
+      <point x="643.6076388888889" y="487.0" />
+      <point x="0.0" y="-72.0" />
+    </edge>
+    <edge source="application.actions.ManageTask" target="application.app.Menu">
+      <point x="63.33333333333337" y="-27.0" />
+      <point x="228.34647817460325" y="487.0" />
+      <point x="287.60763888888886" y="487.0" />
+      <point x="287.60763888888886" y="363.0" />
+      <point x="777.3464781746031" y="363.0" />
+      <point x="-79.66666666666669" y="126.5" />
+    </edge>
+    <edge source="application.actions.CreateTask" target="application.app.Menu">
+      <point x="44.5" y="-27.0" />
+      <point x="682.6076388888889" y="383.0" />
+      <point x="830.4575892857142" y="383.0" />
+      <point x="-26.555555555555543" y="126.5" />
+    </edge>
+    <edge source="application.actions.SortByTitle" target="application.app.Task">
+      <point x="-39.0" y="-27.0" />
+      <point x="786.1076388888889" y="323.0" />
+      <point x="305.9506448412698" y="323.0" />
+      <point x="75.3125" y="116.5" />
+    </edge>
+    <edge source="application.save_read.ReadData" target="application.app.Task">
+      <point x="-57.75" y="-27.0" />
+      <point x="355.85763888888886" y="343.0" />
+      <point x="245.70064484126982" y="343.0" />
+      <point x="15.0625" y="116.5" />
+    </edge>
+    <edge source="application.actions.CreateTask" target="application.app.Task">
+      <point x="-44.5" y="-27.0" />
+      <point x="593.6076388888889" y="333.0" />
+      <point x="275.8256448412698" y="333.0" />
+      <point x="45.1875" y="116.5" />
+    </edge>
+    <edge source="application.app.ToDoList" target="application.actions.Display">
+      <point x="52.19999999999993" y="-72.0" />
+      <point x="695.8076388888888" y="623.0" />
+      <point x="1014.7341765873018" y="623.0" />
+      <point x="-51.0" y="38.0" />
+    </edge>
+    <edge source="application.actions.SortByDate" target="application.app.ToDoList">
+      <point x="-39.75" y="27.0" />
+      <point x="962.8576388888889" y="487.0" />
+      <point x="953.2341765873018" y="487.0" />
+      <point x="953.2341765873018" y="613.0" />
+      <point x="678.4076388888889" y="613.0" />
+      <point x="34.799999999999955" y="-72.0" />
+    </edge>
+    <edge source="application.actions.ManageTask" target="application.actions.EditTask">
+      <point x="0.0" y="-27.0" />
+      <point x="165.01314484126988" y="487.0" />
+      <point x="172.1076388888889" y="487.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="application.save_read.StoreData" target="application.app.ToDoList">
+      <point x="53.25" y="27.0" />
+      <point x="1348.4841765873018" y="663.0" />
+      <point x="765.4076388888889" y="663.0" />
+      <point x="121.79999999999995" y="-72.0" />
+    </edge>
+    <edge source="application.actions.SortByDate" target="application.app.Menu">
+      <point x="39.75" y="-27.0" />
+      <point x="1042.357638888889" y="303.0" />
+      <point x="883.5687003968253" y="303.0" />
+      <point x="26.555555555555543" y="126.5" />
+    </edge>
+    <edge source="application.app.ToDoList" target="application.actions.CreateTask">
+      <point x="-17.399999999999977" y="-72.0" />
+      <point x="626.2076388888889" y="663.0" />
+      <point x="632.6076388888889" y="663.0" />
+      <point x="632.6076388888889" y="487.0" />
+      <point x="593.6076388888889" y="487.0" />
+      <point x="-44.5" y="27.0" />
+    </edge>
+    <edge source="application.Main" target="application.app.ToDoList">
+      <point x="-41.75" y="-27.0" />
+      <point x="601.8576388888889" y="852.0" />
+      <point x="578.3576388888889" y="852.0" />
+      <point x="-65.25" y="72.0" />
+    </edge>
+    <edge source="application.app.ToDoList" target="application.save_read.StoreData">
+      <point x="104.39999999999998" y="-72.0" />
+      <point x="748.0076388888889" y="653.0" />
+      <point x="1241.9841765873018" y="653.0" />
+      <point x="-53.25" y="27.0" />
+    </edge>
+    <edge source="application.app.ToDoList" target="application.app.Menu">
+      <point x="87.0" y="-72.0" />
+      <point x="730.6076388888889" y="643.0" />
+      <point x="1178.2341765873018" y="643.0" />
+      <point x="1178.2341765873018" y="283.0" />
+      <point x="936.6798115079364" y="283.0" />
+      <point x="79.66666666666663" y="126.5" />
+    </edge>
+    <edge source="application.actions.SortByTitle" target="application.app.ToDoList">
+      <point x="-39.0" y="27.0" />
+      <point x="786.1076388888889" y="603.0" />
+      <point x="661.0076388888889" y="603.0" />
+      <point x="17.399999999999977" y="-72.0" />
+    </edge>
+    <edge source="application.actions.Display" target="application.actions.SortByDate">
+      <point x="0.0" y="-38.0" />
+      <point x="1065.7341765873018" y="487.0" />
+      <point x="1042.357638888889" y="487.0" />
+      <point x="39.75" y="27.0" />
+    </edge>
+    <edge source="application.actions.ManageTask" target="application.app.Task">
+      <point x="-63.33333333333337" y="-27.0" />
+      <point x="101.6798115079365" y="487.0" />
+      <point x="22.0" y="487.0" />
+      <point x="22.0" y="373.0" />
+      <point x="185.45064484126982" y="373.0" />
+      <point x="-45.1875" y="116.5" />
+    </edge>
+    <edge source="application.save_read.ReadData" target="application.app.ToDoList">
+      <point x="57.75" y="27.0" />
+      <point x="471.35763888888886" y="487.0" />
+      <point x="412.04236111111106" y="487.0" />
+      <point x="412.04236111111106" y="613.0" />
+      <point x="608.8076388888888" y="613.0" />
+      <point x="-34.80000000000007" y="-72.0" />
+    </edge>
+    <edge source="application.actions.EditTask" target="application.app.Menu">
+      <point x="52.5" y="-27.0" />
+      <point x="224.6076388888889" y="353.0" />
+      <point x="750.7909226190476" y="353.0" />
+      <point x="-106.22222222222223" y="126.5" />
+    </edge>
+    <edge source="application.actions.EditTask" target="application.app.Task">
+      <point x="-52.5" y="-27.0" />
+      <point x="119.60763888888891" y="383.0" />
+      <point x="215.57564484126982" y="383.0" />
+      <point x="-15.0625" y="116.5" />
+    </edge>
+    <edge source="application.app.ToDoList" target="application.save_read.ReadData">
+      <point x="-52.200000000000045" y="-72.0" />
+      <point x="591.4076388888889" y="623.0" />
+      <point x="401.04236111111106" y="623.0" />
+      <point x="401.04236111111106" y="487.0" />
+      <point x="355.85763888888886" y="487.0" />
+      <point x="-57.75" y="27.0" />
+    </edge>
+    <edge source="application.app.ToDoList" target="application.app.Task">
+      <point x="-121.80000000000007" y="-72.0" />
+      <point x="521.8076388888888" y="663.0" />
+      <point x="0.0" y="663.0" />
+      <point x="0.0" y="353.0" />
+      <point x="125.20064484126982" y="353.0" />
+      <point x="-105.4375" y="116.5" />
+    </edge>
+    <edge source="application.actions.ManageTask" target="application.app.ToDoList">
+      <point x="47.5" y="27.0" />
+      <point x="212.51314484126988" y="633.0" />
+      <point x="574.0076388888889" y="633.0" />
+      <point x="-69.60000000000002" y="-72.0" />
+    </edge>
+    <edge source="application.actions.SortByTitle" target="application.app.Menu">
+      <point x="39.0" y="-27.0" />
+      <point x="864.1076388888889" y="383.0" />
+      <point x="857.0131448412699" y="383.0" />
+      <point x="0.0" y="126.5" />
+    </edge>
+    <edge source="application.save_read.ReadData" target="application.app.Menu">
+      <point x="57.75" y="-27.0" />
+      <point x="471.35763888888886" y="373.0" />
+      <point x="803.9020337301588" y="373.0" />
+      <point x="-53.111111111111086" y="126.5" />
+    </edge>
+    <edge source="application.save_read.StoreData" target="application.app.Menu">
+      <point x="0.0" y="-27.0" />
+      <point x="1295.2341765873018" y="273.0" />
+      <point x="963.235367063492" y="273.0" />
+      <point x="106.22222222222217" y="126.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="741.9999999999999" y="453.125" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
