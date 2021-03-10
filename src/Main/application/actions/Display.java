@@ -1,6 +1,6 @@
-package application.actions;
-import application.app.Menu;
-import application.app.ToDoList;
+package Main.application.actions;
+import Main.application.app.Menu;
+import Main.application.app.ToDoList;
 
 
 public class Display {

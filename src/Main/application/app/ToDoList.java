@@ -1,11 +1,11 @@
-package application.app;
+package Main.application.app;
 
-import application.actions.CreateTask;
-import application.actions.Display;
-import application.actions.ManageTask;
+import Main.application.actions.CreateTask;
+import Main.application.actions.Display;
+import Main.application.actions.ManageTask;
 
-import application.save_read.ReadData;
-import application.save_read.StoreData;
+import Main.application.save_read.ReadData;
+import Main.application.save_read.StoreData;
 
 import java.util.ArrayList;
 import java.util.Scanner;
