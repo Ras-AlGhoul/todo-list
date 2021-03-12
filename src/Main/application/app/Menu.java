@@ -45,7 +45,7 @@ public class Menu {
         System.out.println("(2) Mark selected task as Done");
         System.out.println("(3) Delete selected task");
         System.out.println("(4) Return to main menu "
-                + Menu.CYAN + " [default choice, just hit ENTER]"+ Menu.RESET);
+                + Menu.CYAN + " [default choice, just hit ENTER]" + Menu.RESET);
         System.out.print("\nPlease enter your choice [1-4]: ");
     }
 
@@ -63,11 +63,10 @@ public class Menu {
     }
 
     public static void message(String message, boolean warning) {
-        System.out.println(warning? CYAN : YELLOW);
+        System.out.println(warning ? CYAN : YELLOW);
         System.out.println("===> " + message);
         System.out.println(RESET);
     }
-
 
 
 }
