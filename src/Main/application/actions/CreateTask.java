@@ -22,11 +22,11 @@ public class CreateTask {
             LocalDate dueDate = LocalDate.parse(scan.nextLine());
 
             ToDoList.tasks.add(new Task(title, project, dueDate));
-            Menu.Message("Task successfully added ", false);
+            Menu.message("Task successfully added ", false);
 
             return true;
         } catch (Exception e) {
-            Menu.Message(e.getMessage(), true);
+            Menu.message(e.getMessage(), true);
             return false;
         }
 

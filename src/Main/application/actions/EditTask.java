@@ -35,11 +35,11 @@ public class EditTask {
                 isTaskUpdated = true;
             }
 
-            Menu.Message("Task is " + (isTaskUpdated ? "updated successfully" : "NOT modified") + ": Returning to Main Menu", false);
+            Menu.message("Task is " + (isTaskUpdated ? "updated successfully" : "NOT modified") + ": Returning to Main Menu", false);
 
             return true;
         } catch (Exception e) {
-            Menu.Message(e.getMessage(), true);
+            Menu.message(e.getMessage(), true);
             return false;
         }
     }

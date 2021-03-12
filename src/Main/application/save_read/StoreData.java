@@ -20,7 +20,7 @@ public class StoreData {
             return true;
 
         } catch (Exception e) {
-            Menu.Message(e.getMessage(),true);
+            Menu.message(e.getMessage(),true);
             return false;
         }
     }

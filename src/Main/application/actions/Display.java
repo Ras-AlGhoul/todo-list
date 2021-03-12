@@ -9,8 +9,8 @@ public class Display {
         System.out.println("########################################################################");
         System.out.println(
                 "Total Tasks = " + ToDoList.tasks.size() +
-                        "\t\t (Done = " + ToDoList.DoneCount() + "\t\t" +
-                        Menu.CYAN + " Incompleted = " + ToDoList.InCompletedCount() + Menu.RESET +
+                        "\t\t (Done = " + ToDoList.doneCount() + "\t\t" +
+                        Menu.CYAN + " Incompleted = " + ToDoList.inCompletedCount() + Menu.RESET +
                         " )");
 
         System.out.println("########################################################################");

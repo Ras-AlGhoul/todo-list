@@ -24,7 +24,7 @@ public class ManageTask {
 
             Task task = ToDoList.tasks.get(taskIndex);
 
-            Menu.Message("Task Index " + selectedTask + "  is selected:" + task.formattedStringOfTask(), false);
+            Menu.message("Task Index " + selectedTask + "  is selected:" + task.formattedStringOfTask(), false);
 
             Menu.editTaskMenu();
             Scanner scan = new Scanner(System.in);
@@ -35,17 +35,17 @@ public class ManageTask {
                     break;
                 case "2":
                     task.markDone();
-                    Menu.Message("Task Index " + selectedTask + " is marked as Done: Returning to Main Menu", false);
+                    Menu.message("Task Index " + selectedTask + " is marked as Done: Returning to Main Menu", false);
                     break;
                 case "3":
                     ToDoList.tasks.remove(task);
-                    Menu.Message("Task Index " + selectedTask + " is Deleted: Returning to Main Menu", true);
+                    Menu.message("Task Index " + selectedTask + " is Deleted: Returning to Main Menu", true);
                     break;
                 default:
-                    Menu.Message("Returning to Main Menu", true);
+                    Menu.message("Returning to Main Menu", true);
             }
         } catch (Exception e) {
-            Menu.Message(e.getMessage(), true);
+            Menu.message(e.getMessage(), true);
         }
     }
 }

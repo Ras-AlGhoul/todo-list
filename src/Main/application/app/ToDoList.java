@@ -18,14 +18,14 @@ public class ToDoList {
         tasks = new ArrayList<>();
     }
 
-    public static int DoneCount() {
+    public static int doneCount() {
         return (int) tasks.stream()
                 .filter(Task::isDone)
                 .count();
     }
 
 
-    public static int InCompletedCount() {
+    public static int inCompletedCount() {
         return (int) tasks.stream()
                 .filter(task -> !task.isDone())
                 .count();
@@ -39,10 +39,10 @@ public class ToDoList {
 
             ReadData.readFromFile(filename);
 
-            Menu.Message("Welcome Back!", true);
+            Menu.message("Welcome Back!", true);
 
             while (!userSelection.equals("4")) {
-                Menu.menu(toDoList.InCompletedCount(), toDoList.DoneCount());
+                Menu.menu(toDoList.inCompletedCount(), toDoList.doneCount());
                 userSelection = input.nextLine();
 
                 switch (userSelection) {
@@ -70,7 +70,7 @@ public class ToDoList {
             Menu.endingMemo();
 
         } catch (Exception e) {
-            Menu.Message("UNCAUGHT EXCEPTION THROWN", true);
+            Menu.message("UNCAUGHT EXCEPTION THROWN", true);
             System.out.println("Trying to write the unsaved data of all tasks in data file");
             StoreData.saveToFile(filename);
             System.out.println(e.getMessage());

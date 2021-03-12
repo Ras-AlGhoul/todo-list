@@ -62,7 +62,7 @@ public class Menu {
         System.out.print(RESET);
     }
 
-    public static void Message(String message, boolean warning) {
+    public static void message(String message, boolean warning) {
         System.out.println(warning? CYAN : YELLOW);
         System.out.println("===> " + message);
         System.out.println(RESET);
