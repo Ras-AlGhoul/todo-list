@@ -7,6 +7,12 @@ import java.time.LocalDate;
 import java.util.Scanner;
 
 public class EditTask {
+
+  /* this method is designed to read the value from user
+     and update the given Task object in the todoList of Tasks
+     @task the task parameter whose value need to be updated with user input
+     @return true, if the Tasks object is updated in todoList, otherwise false  */
+
     public static boolean updateTask(Task task) {
         Scanner scan = new Scanner(System.in);
         boolean isTaskUpdated = false;
