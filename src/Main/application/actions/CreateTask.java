@@ -3,11 +3,16 @@ package Main.application.actions;
 import Main.application.app.Menu;
 import Main.application.app.Task;
 import Main.application.app.ToDoList;
-
 import java.time.LocalDate;
 import java.util.Scanner;
 
 public class CreateTask {
+
+
+  /*  this method was deigned to read the value from user to
+      create a Task object and to add in the List of Tasks
+      it will @return true, if the Tasks object is created and
+      added, otherwise false */
 
     public static boolean createTask() {
         Scanner scan = new Scanner(System.in);
