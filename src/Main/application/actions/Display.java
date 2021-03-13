@@ -4,9 +4,11 @@ import Main.application.app.Menu;
 import Main.application.app.ToDoList;
 
 /**
- @version
- @since
- @author Yazan Abbas
+ * This is the Menu Class and it contains various
+ * display Menu options and messages
+ *
+ * @author Yazan Abbas
+ * @since
  **/
 
 public class Display {

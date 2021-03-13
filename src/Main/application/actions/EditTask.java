@@ -6,9 +6,11 @@ import java.time.LocalDate;
 import java.util.Scanner;
 
 /**
- @version
- @since
- @author Yazan Abbas
+ * This is the Menu Class and it contains various
+ * display Menu options and messages
+ *
+ * @author Yazan Abbas
+ * @since
  **/
 
 public class EditTask {

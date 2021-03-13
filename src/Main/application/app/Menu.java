@@ -3,6 +3,7 @@ package Main.application.app;
 /**
   This is the Menu Class and it contains various
   display Menu options and messages
+
   @version
   @since
   @author Yazan Abbas
@@ -10,11 +11,11 @@ package Main.application.app;
 
 public class Menu {
 
-    // created field to hold code to RESET the text font color
+    //Created final field to hold code to RESET the text font color
     public static final String RESET = "\u001B[0m";
-    //created field to hold code to change the text font color to CYAN
+    //Created final field to hold code to change the text font color to CYAN
     public static final String CYAN = "\u001B[36m";
-    //created field to hold code to change the text font color to Yellow
+    //Created final field to hold code to change the text font color to Yellow
     public static final String YELLOW = "\u001B[33m";
 
     /** Created this method to display the main menu on

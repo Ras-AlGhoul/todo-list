@@ -3,17 +3,25 @@ package Main.application.app;
 import Main.application.actions.CreateTask;
 import Main.application.actions.Display;
 import Main.application.actions.ManageTask;
-
 import Main.application.save_read.ReadData;
 import Main.application.save_read.StoreData;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ToDoList {
+/**
+ * This is the Menu Class and it contains various
+ * display Menu options and messages
+ *
+ * @author Yazan Abbas
+ * @since
+ **/
 
+public class ToDoList {
+    //Created field
     public static ArrayList<Task> tasks;
 
+    /** */
     public ToDoList() {
         tasks = new ArrayList<>();
     }

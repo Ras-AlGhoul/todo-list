@@ -5,11 +5,31 @@ import java.time.DateTimeException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+/**
+ This is the Menu Class and it contains various
+ display Menu options and messages
+
+ @version
+ @since
+ @author Yazan Abbas
+ **/
+
 public class Task implements Serializable {
+    //Created String field which holds the title of a task
     private String title;
+    //Created String which holds the name of project linked with task
     private String project;
+    //Created LocalDate field which holds the task due date as yyyy-mm-dd format
     private LocalDate dueDate;
+    //created boolean field which holds the done status of a task, if true: the task is done, otherwise false
     private boolean done;
+
+    /**
+     * Creating an object of Task class
+     * @param title A String that holds the title of a task and it cannot be empty or null.
+     * @param project A String that holds the name of project associated with task, and it could be an empty string.
+     * @param dueDate The due date of the task as yyyy-mm-dd format
+     */
 
     public Task(String title, String project, LocalDate dueDate) {
 
@@ -19,9 +39,20 @@ public class Task implements Serializable {
         this.setDueDate(dueDate);
     }
 
+    /**
+     * A method to get the task title
+     * @return a String containing the title of a task
+     */
     public String getTitle() {
         return this.title;
     }
+
+
+    /**
+     * A method to set the title of a Task object
+     * @param title A String that holds the title of a task and it cannot be empty or null.
+     * @throws NullPointerException if title is null or empty string
+     */
 
     public void setTitle(String title) throws NullPointerException {
         if (title.trim().equals("") || title == null) {
@@ -30,36 +61,73 @@ public class Task implements Serializable {
         this.title = title.trim();
     }
 
+
+    /**
+     * A method to get the project name
+     * @return a String containing the project name
+     */
+
     public String getProject() {
         return this.project;
     }
+
+    /**
+     * A method to set the project name
+     * @param project A String that holds the name of project associated with task, and it could be an empty string.
+     */
 
     public void setProject(String project) {
         this.project = project.trim();
     }
 
+    /**
+     * A method to get the completed status of task
+     * @return true: if the task is marked as completed, otherwise it will return false
+     */
+
     public boolean isDone() {
         return this.done;
     }
 
+    /**
+     * A method to mark a task as in complete
+     * @return the updated value of the field complete
+     */
 
     public boolean markDone() {
         this.done = true;
         return this.done;
     }
 
+    /**
+     * A method to get the due date of the task
+     * @return the due date of task as LocalDate object
+     */
+
     public LocalDate getDueDate() {
         return dueDate;
     }
+
+    /**
+     * A method to set the due date of a task
+     * @param dueDate The due date of the task as yyyy-mm-dd format
+     * @throws DateTimeException if given date is a past date
+     */
 
     public void setDueDate(LocalDate dueDate) throws DateTimeException {
         if (dueDate.compareTo(LocalDate.now())<0) {
             throw new DateTimeException("Past Date not allowed");
         }
 
+        //Ensure dueDate is saved as yyyy-MM-dd
         DateTimeFormatter formattedDate = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         this.dueDate = LocalDate.parse(dueDate.format(formattedDate));
     }
+
+    /**
+     * A method to get the task data as formatted string to display in multiple lines
+     * @return formatted string of all fields of a task
+     */
 
     public String formattedStringOfTask() {
         return (

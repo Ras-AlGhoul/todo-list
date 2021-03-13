@@ -10,8 +10,21 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
+/**
+ * This is the Menu Class and it contains various
+ * display Menu options and messages
+ *
+ * @author Yazan Abbas
+ * @since
+ **/
+
 public class ReadData {
 
+    /**
+     * This method will read the data file from disk which will contain the data of previously saved tasks
+     * @param filename a string specifying the full path and extension of data file, for example,  "resources/tasks.obj"
+     * @return true if the reading operation was successful, otherwise false
+     */
 
     public static boolean readFromFile(String filename) {
         boolean status = false;
