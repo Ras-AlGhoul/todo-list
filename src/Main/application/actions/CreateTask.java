@@ -9,10 +9,10 @@ import java.util.Scanner;
 public class CreateTask {
 
 
-  /*  this method was deigned to read the value from user to
+  /** this method was deigned to read the value from user to
       create a Task object and to add in the List of Tasks
       it will @return true, if the Tasks object is created and
-      added, otherwise false */
+      added, otherwise false **/
 
     public static boolean createTask() {
         Scanner scan = new Scanner(System.in);

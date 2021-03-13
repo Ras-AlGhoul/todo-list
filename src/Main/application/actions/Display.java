@@ -6,9 +6,9 @@ import Main.application.app.ToDoList;
 
 public class Display {
 
-    /* this method is created to display the contents of todoList
-       sortBy a string holding a number, "2" for sorting by project,
-       otherwise it will sort by by date */
+    /** this method is created to display the contents of todoList
+       @param sortBy a string holding a number, "2" for sorting by project,
+       otherwise it will sort by by date **/
 
     public static void displayTasks(String sortBy) {
 
