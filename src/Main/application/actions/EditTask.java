@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class EditTask {
 
   /* this method is designed to read the value from user
-     and update the given Task object in the todoList of Tasks
+     and update a given Task in the todoList of Tasks
      @task the task parameter whose value need to be updated with user input
      @return true, if the Tasks object is updated in todoList, otherwise false  */
 
