@@ -3,8 +3,13 @@ package Main.application.actions;
 import Main.application.app.Menu;
 import Main.application.app.Task;
 import Main.application.app.ToDoList;
-
 import java.util.Comparator;
+
+/**
+ @version
+ @since
+ @author Yazan Abbas
+ **/
 
 public class SortByTitle {
 
