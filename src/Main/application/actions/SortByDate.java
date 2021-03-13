@@ -8,6 +8,10 @@ import java.util.Comparator;
 
 public class SortByDate {
 
+    /**
+      this method was implemented to give the user the choice of displaying
+      the contents of the todoList by date **/
+
      public static void sortByDate(){
 
             String displayFormat = "%-10s %-35s %-20s %-10s";

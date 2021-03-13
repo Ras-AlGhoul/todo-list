@@ -16,7 +16,7 @@ public class ManageTask {
 
     public static void actOnTask(String selectedTask) throws NullPointerException {
         try {
-
+            // if statement to check if the task number is an empty string or null
             if (selectedTask.trim().equals("") || selectedTask == null) {
                 throw new NullPointerException("EMPTY/NULL TASK Index: Returning to Main Menu");
             }
