@@ -5,13 +5,13 @@ public class Menu {
     public static final String CYAN = "\u001B[36m";
     public static final String YELLOW = "\u001B[33m";
 
-    public static void menu(int incompletedTaskCount, int DoneTaskCount) {
+    public static void menu(int incompletedTaskCount, int doneTaskCount) {
         System.out.println("\nMAIN MENU");
         System.out.println("########\n");
         System.out.println("You have " + Menu.CYAN
                 + incompletedTaskCount + " task(s) todo "
                 + Menu.RESET + "and " + Menu.YELLOW
-                + DoneTaskCount + " Done task(s)\n" + Menu.RESET);
+                + doneTaskCount + " Done task(s)\n" + Menu.RESET);
         System.out.println("Pick an option:");
         System.out.println("(1) Show Task List (by date or project)");
         System.out.println("(2) Add New Task");
