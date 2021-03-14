@@ -1,7 +1,4 @@
-package Main.application.actions;
-
-import Main.application.app.Menu;
-import Main.application.app.ToDoList;
+package Main.application.view;
 
 
 public class Display {
@@ -10,8 +7,8 @@ public class Display {
         System.out.println("########################################################################");
         System.out.println(
                 "Total Tasks = " + ToDoList.tasks.size() +
-                        "\t\t (Done = " + ToDoList.doneCount() + "\t\t" +
-                        Menu.CYAN + " Incompleted = " + ToDoList.inCompletedCount() + Menu.RESET +
+                        "\t\t (Done = " + TaskCounter.doneCount(ToDoList.tasks) + "\t\t" +
+                        Menu.CYAN + " Incompleted = " + TaskCounter.inCompletedCount(ToDoList.tasks) + Menu.RESET +
                         " )");
 
         System.out.println("########################################################################");

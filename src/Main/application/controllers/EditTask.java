@@ -1,7 +1,6 @@
-package Main.application.actions;
+package Main.application.controllers;
 
-import Main.application.app.Menu;
-import Main.application.app.Task;
+import Main.application.view.Menu;
 
 import java.time.LocalDate;
 import java.util.Scanner;

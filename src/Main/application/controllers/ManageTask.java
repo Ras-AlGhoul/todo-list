@@ -1,8 +1,7 @@
-package Main.application.actions;
+package Main.application.controllers;
 
-import Main.application.app.Menu;
-import Main.application.app.Task;
-import Main.application.app.ToDoList;
+import Main.application.view.Menu;
+import Main.application.view.ToDoList;
 
 import java.util.Scanner;
 

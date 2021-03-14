@@ -1,8 +1,7 @@
-package Main.application.save_read;
+package Main.application.controllers;
 
-import Main.application.app.Menu;
-import Main.application.app.Task;
-import Main.application.app.ToDoList;
+import Main.application.view.Menu;
+import Main.application.view.ToDoList;
 
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;

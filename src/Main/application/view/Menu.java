@@ -1,4 +1,4 @@
-package Main.application.app;
+package Main.application.view;
 
 public class Menu {
     public static final String RESET = "\u001B[0m";

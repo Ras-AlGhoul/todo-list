@@ -1,11 +1,6 @@
-package Main.application.app;
+package Main.application.view;
 
-import Main.application.actions.CreateTask;
-import Main.application.actions.Display;
-import Main.application.actions.ManageTask;
-
-import Main.application.save_read.ReadData;
-import Main.application.save_read.StoreData;
+import Main.application.controllers.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -16,19 +11,6 @@ public class ToDoList {
 
     public ToDoList() {
         tasks = new ArrayList<>();
-    }
-
-    public static int doneCount() {
-        return (int) tasks.stream()
-                .filter(Task::isDone)
-                .count();
-    }
-
-
-    public static int inCompletedCount() {
-        return (int) tasks.stream()
-                .filter(task -> !task.isDone())
-                .count();
     }
 
     public void runToDoList(ToDoList toDoList, String filename) {
@@ -42,7 +24,7 @@ public class ToDoList {
             Menu.message("Welcome Back!", true);
 
             while (!userSelection.equals("4")) {
-                Menu.menu(toDoList.inCompletedCount(), toDoList.doneCount());
+                Menu.menu(TaskCounter.inCompletedCount(tasks), TaskCounter.doneCount(tasks));
                 userSelection = input.nextLine();
 
                 switch (userSelection) {

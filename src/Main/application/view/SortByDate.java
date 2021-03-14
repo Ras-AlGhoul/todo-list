@@ -1,8 +1,6 @@
-package Main.application.actions;
+package Main.application.view;
 
-import Main.application.app.Menu;
-import Main.application.app.Task;
-import Main.application.app.ToDoList;
+import Main.application.controllers.Task;
 
 import java.util.Comparator;
 

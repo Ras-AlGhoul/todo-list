@@ -1,4 +1,4 @@
-package Main.application.app;
+package Main.application.controllers;
 
 import java.io.Serializable;
 import java.time.DateTimeException;
