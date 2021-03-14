@@ -17,9 +17,9 @@ import java.io.ObjectOutputStream;
 public class StoreData {
 
     /**
-     * This method will write the data of Tasks from ArrayList to data file on disk, i.e., tasks.obj
-     * @param filename a string specifying the full path and extension of data file, for example,  "resources/tasks.obj"
-     * @return true if the reading operation was successful, otherwise false
+     * This method is created to write the data of Tasks from todoList to data file.
+     * @param filename is a string defining the full path of the data file
+     * @return true if the reading of the file was successful, otherwise false
      */
 
     public static boolean saveToFile(String filename) {
