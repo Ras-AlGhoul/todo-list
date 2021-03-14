@@ -19,7 +19,7 @@ public class StoreData {
     /**
      * This method is created to write the data of Tasks from todoList to data file.
      * @param filename is a string defining the full path of the data file
-     * @return true if the reading of the file was successful, otherwise false
+     * @return true if the reading functioning of the file was successful, otherwise false
      */
 
     public static boolean saveToFile(String filename) {

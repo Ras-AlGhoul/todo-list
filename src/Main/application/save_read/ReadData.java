@@ -21,9 +21,9 @@ import java.util.ArrayList;
 public class ReadData {
 
     /**
-     * This method will read the data file from disk which will contain the data of previously saved tasks
-     * @param filename a string specifying the full path and extension of data file, for example,  "resources/tasks.obj"
-     * @return true if the reading operation was successful, otherwise false
+     * This method is created to read the data file which will hold the data of saved tasks
+     * @param filename is a string defining the full path of data file
+     * @return true if the reading functioning was successful, otherwise false
      */
 
     public static boolean readFromFile(String filename) {
