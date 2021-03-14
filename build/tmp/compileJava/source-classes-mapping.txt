@@ -1,24 +1,26 @@
-Main/application/app/ToDoList.java
- Main.application.app.ToDoList
-Main/application/app/Task.java
- Main.application.app.Task
-Main/application/actions/CreateTask.java
- Main.application.actions.CreateTask
-Main/application/app/Menu.java
- Main.application.app.Menu
-Main/application/actions/ManageTask.java
- Main.application.actions.ManageTask
+Main/application/controllers/ReadData.java
+ Main.application.controllers.ReadData
 Main/application/Main.java
  Main.application.Main
-Main/application/actions/SortByDate.java
- Main.application.actions.SortByDate
-Main/application/actions/EditTask.java
- Main.application.actions.EditTask
-Main/application/save_read/StoreData.java
- Main.application.save_read.StoreData
-Main/application/save_read/ReadData.java
- Main.application.save_read.ReadData
-Main/application/actions/Display.java
- Main.application.actions.Display
-Main/application/actions/SortByTitle.java
- Main.application.actions.SortByTitle
+Main/application/controllers/StoreData.java
+ Main.application.controllers.StoreData
+Main/application/controllers/Task.java
+ Main.application.controllers.Task
+Main/application/view/TaskCounter.java
+ Main.application.view.TaskCounter
+Main/application/controllers/EditTask.java
+ Main.application.controllers.EditTask
+Main/application/view/SortByDate.java
+ Main.application.view.SortByDate
+Main/application/controllers/CreateTask.java
+ Main.application.controllers.CreateTask
+Main/application/view/Menu.java
+ Main.application.view.Menu
+Main/application/view/ToDoList.java
+ Main.application.view.ToDoList
+Main/application/view/Display.java
+ Main.application.view.Display
+Main/application/controllers/ManageTask.java
+ Main.application.controllers.ManageTask
+Main/application/view/SortByTitle.java
+ Main.application.view.SortByTitle
