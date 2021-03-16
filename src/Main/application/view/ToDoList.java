@@ -1,11 +1,6 @@
-package Main.application.app;
+package Main.application.view;
 
-import Main.application.actions.CreateTask;
-import Main.application.actions.Display;
-import Main.application.actions.ManageTask;
-
-import Main.application.save_read.ReadData;
-import Main.application.save_read.StoreData;
+import Main.application.controllers.*;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -18,19 +13,6 @@ public class ToDoList {
         tasks = new ArrayList<>();
     }
 
-    public static int DoneCount() {
-        return (int) tasks.stream()
-                .filter(Task::isDone)
-                .count();
-    }
-
-
-    public static int InCompletedCount() {
-        return (int) tasks.stream()
-                .filter(task -> !task.isDone())
-                .count();
-    }
-
     public void runToDoList(ToDoList toDoList, String filename) {
         String userSelection = "0";
 
@@ -39,10 +21,10 @@ public class ToDoList {
 
             ReadData.readFromFile(filename);
 
-            Menu.Message("Welcome Back!", true);
+            Menu.message("Welcome Back!", true);
 
             while (!userSelection.equals("4")) {
-                Menu.menu(toDoList.InCompletedCount(), toDoList.DoneCount());
+                Menu.menu(TaskCounter.inCompletedCount(tasks), TaskCounter.doneCount(tasks));
                 userSelection = input.nextLine();
 
                 switch (userSelection) {
@@ -70,7 +52,7 @@ public class ToDoList {
             Menu.endingMemo();
 
         } catch (Exception e) {
-            Menu.Message("UNCAUGHT EXCEPTION THROWN", true);
+            Menu.message("UNCAUGHT EXCEPTION THROWN", true);
             System.out.println("Trying to write the unsaved data of all tasks in data file");
             StoreData.saveToFile(filename);
             System.out.println(e.getMessage());

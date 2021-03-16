@@ -1,6 +1,6 @@
 package Main.application;
 
-import Main.application.app.ToDoList;
+import Main.application.view.ToDoList;
 
 public class Main {
 

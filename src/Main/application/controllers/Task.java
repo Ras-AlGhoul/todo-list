@@ -1,4 +1,4 @@
-package Main.application.app;
+package Main.application.controllers;
 
 import java.io.Serializable;
 import java.time.DateTimeException;
@@ -53,7 +53,7 @@ public class Task implements Serializable {
     }
 
     public void setDueDate(LocalDate dueDate) throws DateTimeException {
-        if (dueDate.compareTo(LocalDate.now())<0) {
+        if (dueDate.compareTo(LocalDate.now()) < 0) {
             throw new DateTimeException("Past Date not allowed");
         }
 
@@ -65,11 +65,11 @@ public class Task implements Serializable {
         return (
                 "\nTitle     : " + title +
                         "\nProject   : " + project +
-                        "\nStatus    : " + (done ?"DONE":"INCOMPLETED") +
+                        "\nStatus    : " + (done ? "DONE" : "INCOMPLETED") +
                         "\nDue Date  : " + dueDate +
                         "\n");
     }
 
 
-    }
+}
 

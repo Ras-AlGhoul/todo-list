@@ -1,8 +1,7 @@
-package Main.application.save_read;
+package Main.application.controllers;
 
-import Main.application.app.Menu;
-import Main.application.app.Task;
-import Main.application.app.ToDoList;
+import Main.application.view.Menu;
+import Main.application.view.ToDoList;
 
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
@@ -18,7 +17,7 @@ public class ReadData {
 
         try {
             if (!Files.isReadable(Paths.get(filename))) {
-                Menu.Message("The data file, i.e., " + filename + " does not exists", true);
+                Menu.message("The data file, i.e., " + filename + " does not exists", true);
                 return false;
             }
 
@@ -32,7 +31,7 @@ public class ReadData {
             return true;
 
         } catch (Exception e) {
-            Menu.Message(e.getMessage(),true);
+            Menu.message(e.getMessage(),true);
             return false;
         }
     }

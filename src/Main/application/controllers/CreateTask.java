@@ -1,8 +1,7 @@
-package Main.application.actions;
+package Main.application.controllers;
 
-import Main.application.app.Menu;
-import Main.application.app.Task;
-import Main.application.app.ToDoList;
+import Main.application.view.Menu;
+import Main.application.view.ToDoList;
 
 import java.time.LocalDate;
 import java.util.Scanner;
@@ -22,11 +21,11 @@ public class CreateTask {
             LocalDate dueDate = LocalDate.parse(scan.nextLine());
 
             ToDoList.tasks.add(new Task(title, project, dueDate));
-            Menu.Message("Task successfully added ", false);
+            Menu.message("Task successfully added ", false);
 
             return true;
         } catch (Exception e) {
-            Menu.Message(e.getMessage(), true);
+            Menu.message(e.getMessage(), true);
             return false;
         }
 
