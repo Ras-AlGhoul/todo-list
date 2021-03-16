@@ -5,10 +5,10 @@ import Main.application.controllers.Task;
 import java.util.Comparator;
 
 /**
- * This is the Menu Class and it contains various
- * display Menu options and messages
+ * This is the SortByTitle Class and it contains the
+ * method responsible for sorting by title
  * @author Yazan Abbas
- * @since
+ * @since 1.0
  **/
 public class SortByTitle {
     /**

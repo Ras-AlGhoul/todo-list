@@ -9,10 +9,10 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 
 /**
- * This is the Menu Class and it contains various
- * display Menu options and messages
+ * This is the ReadData class and it contains the
+ * method responsible for reading data
  * @author Yazan Abbas
- * @since
+ * @since 1.0
  **/
 
 public class ReadData {

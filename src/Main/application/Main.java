@@ -3,10 +3,10 @@ package Main.application;
 import Main.application.view.ToDoList;
 
 /**
- * This is the Menu Class and it contains various
- * display Menu options and messages
+ * This is the main Class and it contains the
+ * main method
  * @author Yazan Abbas
- * @since
+ * @since 1.0
  **/
 
 public class Main {

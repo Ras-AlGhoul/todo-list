@@ -7,10 +7,10 @@ import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 
 /**
- * This is the Menu Class and it contains various
- * display Menu options and messages
+ * This is the StoreData Class and it contains the
+ * method responsible for storing data
  * @author Yazan Abbas
- * @since
+ * @since 1.0
  **/
 
 public class StoreData {

@@ -7,10 +7,10 @@ import java.time.LocalDate;
 import java.util.Scanner;
 
 /**
- * This is the Menu Class and it contains various
- * display Menu options and messages
+ * This is the CreateTask class and it contains the
+ * method responsible for creating a task
  * @author Yazan Abbas
- * @since
+ * @since 1.0
  **/
 
 public class CreateTask {

@@ -7,10 +7,10 @@ import Main.application.view.ToDoList;
 import java.util.Scanner;
 
 /**
- * This is the Menu Class and it contains various
- * display Menu options and messages
+ * This is the ManageTask class and it contains the
+ *method responsible for managing a task
  * @author Yazan Abbas
- * @since
+ * @since 1.0
  **/
 
 public class ManageTask {

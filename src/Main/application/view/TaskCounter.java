@@ -5,10 +5,10 @@ import Main.application.controllers.Task;
 import java.util.ArrayList;
 
 /**
- * This is the Menu Class and it contains various
- * display Menu options and messages
+ * This is the TaskCounter class and it contains various
+ * methods responsible for counting tasks
  * @author Yazan Abbas
- * @since
+ * @since 1.0
  **/
 
 public class TaskCounter {
@@ -30,6 +30,7 @@ public class TaskCounter {
      * @param tasks is list of the tasks
      * @return number of tasks with incompleted status
      */
+
     public static int inCompletedCount(ArrayList<Task> tasks) {
         return (int) tasks.stream()
                 .filter(task -> !task.isDone())

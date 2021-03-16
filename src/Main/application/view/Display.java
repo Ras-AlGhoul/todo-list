@@ -1,10 +1,10 @@
 package Main.application.view;
 
 /**
- * This is the Menu Class and it contains various
- * display Menu options and messages
+ * This is the Display Class and it contains several
+ * methods responsible for displaying content
  * @author Yazan Abbas
- * @since
+ * @since 1.0
  **/
 
 public class Display {

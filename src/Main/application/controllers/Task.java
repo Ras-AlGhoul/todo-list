@@ -6,10 +6,10 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 /**
- * This is the Menu Class and it contains various
- * display Menu options and messages
+ * This is the Task Class and it contains various
+ * methods responsible for tasks
  * @author Yazan Abbas
- * @since
+ * @since 1.0
  **/
 
 public class Task implements Serializable {

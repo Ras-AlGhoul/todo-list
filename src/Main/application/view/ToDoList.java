@@ -6,10 +6,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * This is the Menu Class and it contains various
- * display Menu options and messages
+ * This is the ToDoList Class and it contains the
+ * method responsible for running the application
  * @author Yazan Abbas
- * @since
+ * @since 1.0
  **/
 
 public class ToDoList {

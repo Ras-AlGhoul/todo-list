@@ -5,10 +5,10 @@ import Main.application.controllers.Task;
 import java.util.Comparator;
 
 /**
- * This is the Menu Class and it contains various
- * display Menu options and messages
+ * This is the SortByDate Class and it contains the
+ * method responsible for sorting by date
  * @author Yazan Abbas
- * @since
+ * @since 1.0
  **/
 
 public class SortByDate {
