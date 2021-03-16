@@ -39,6 +39,8 @@ public class Task implements Serializable {
         this.setDueDate(dueDate);
     }
 
+
+
     /**
      * This method is created to get the task title
      * @return the title of a task string
@@ -136,6 +138,7 @@ public class Task implements Serializable {
                         "\nDue Date  : " + dueDate +
                         "\n");
     }
+
 
 
 }
