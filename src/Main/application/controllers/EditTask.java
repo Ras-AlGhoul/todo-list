@@ -5,7 +5,22 @@ import Main.application.view.Menu;
 import java.time.LocalDate;
 import java.util.Scanner;
 
+/**
+ * This is the EditTask Class and it contains the
+ * method responsible for updating a certain task
+ * @author Yazan Abbas
+ * @since 1.0
+ **/
+
 public class EditTask {
+
+    /**
+     * this method is designed to read the value from user
+     * and update a given Task in the todoList of Tasks
+     * @param task the task parameter value need to be updated with user input
+     * @return true, if the Tasks object is updated in todoList, otherwise false
+     **/
+
     public static boolean updateTask(Task task) {
         Scanner scan = new Scanner(System.in);
         boolean isTaskUpdated = false;

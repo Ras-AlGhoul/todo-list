@@ -5,20 +5,38 @@ import Main.application.controllers.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ToDoList {
+/**
+ * This is the ToDoList Class and it contains the
+ * method responsible for running the application
+ * @author Yazan Abbas
+ * @since 1.0
+ **/
 
+public class ToDoList {
+    //Created field of an array list of task objects
     public static ArrayList<Task> tasks;
 
+    /**
+     * Created a constructor to instantiate an object from our class
+     */
     public ToDoList() {
         tasks = new ArrayList<>();
     }
 
+    /**
+     * Created this method to run the "To Do List" application with a switch statement
+     * @param toDoList to take the todoList and run actions on it
+     * @param filename to save tasks on
+     */
+
     public void runToDoList(ToDoList toDoList, String filename) {
+        //string to hold the selection that the user will enter
         String userSelection = "0";
 
         try {
             Scanner input = new Scanner(System.in);
 
+            // reading the date from task data file
             ReadData.readFromFile(filename);
 
             Menu.message("Welcome Back!", true);
@@ -48,6 +66,7 @@ public class ToDoList {
                 }
             }
 
+            // saving the task details in data file
             StoreData.saveToFile(filename);
             Menu.endingMemo();
 

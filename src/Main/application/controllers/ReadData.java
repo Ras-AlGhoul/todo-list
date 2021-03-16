@@ -2,15 +2,26 @@ package Main.application.controllers;
 
 import Main.application.view.Menu;
 import Main.application.view.ToDoList;
-
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
+/**
+ * This is the ReadData class and it contains the
+ * method responsible for reading data
+ * @author Yazan Abbas
+ * @since 1.0
+ **/
+
 public class ReadData {
 
+    /**
+     * This method is created to read the data file which will hold the data of saved tasks
+     * @param filename is a string defining the full path of data file
+     * @return true if the reading functioning was successful, otherwise false
+     */
 
     public static boolean readFromFile(String filename) {
         boolean status = false;

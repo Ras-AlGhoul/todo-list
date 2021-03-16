@@ -4,7 +4,17 @@ import Main.application.controllers.Task;
 
 import java.util.Comparator;
 
+/**
+ * This is the SortByTitle Class and it contains the
+ * method responsible for sorting by title
+ * @author Yazan Abbas
+ * @since 1.0
+ **/
 public class SortByTitle {
+    /**
+     * this method was implemented to give the user the choice of displaying
+     * the contents of the todoList by the title of the project
+     **/
 
     public static void sortByTitle() {
         String displayFormat = "%-20s %-35s %-10s %-10s";
