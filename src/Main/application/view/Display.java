@@ -1,7 +1,20 @@
 package Main.application.view;
 
+/**
+ * This is the Menu Class and it contains various
+ * display Menu options and messages
+ * @author Yazan Abbas
+ * @since
+ **/
 
 public class Display {
+
+    /**
+     * this method is created to display the contents of todoList
+     * @param sortBy a string holding a number, "2" for sorting by project,
+     * otherwise it will sort by by date
+     **/
+
     public static void displayTasks(String sortBy) {
 
         System.out.println("########################################################################");
@@ -19,6 +32,9 @@ public class Display {
         }
     }
 
+    /**
+     * this method was designed to display the contents of todoList with first column as task number
+     */
     public static void indexTasks() {
         String displayFormat = "%-4s%-35s %-20s %-10s %-10s";
 

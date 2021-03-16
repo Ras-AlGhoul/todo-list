@@ -2,7 +2,6 @@ package Main.application.controllers;
 
 import Main.application.view.Menu;
 import Main.application.view.ToDoList;
-
 import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 import java.nio.file.Files;
@@ -12,7 +11,6 @@ import java.util.ArrayList;
 /**
  * This is the Menu Class and it contains various
  * display Menu options and messages
- *
  * @author Yazan Abbas
  * @since
  **/

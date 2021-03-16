@@ -3,7 +3,6 @@ package Main.application.view;
 /**
  * This is the Menu Class and it contains various
  * display Menu options and messages
- *
  * @author Yazan Abbas
  * @since
  **/
@@ -20,7 +19,6 @@ public class Menu {
     /**
      * Created this method to display the main menu on
      * terminal to display all options for user.
-     *
      * @param incompletedTaskCount takes the number of incompleted tasks to display in main menu
      * @param doneTaskCount        takes the number of done tasks to display in main menu
      **/
@@ -107,10 +105,9 @@ public class Menu {
 
     /**
      * Created this method to display any message in CYAN or YELLOW text on terminal
-     *
      * @param message a text message as String
      * @param warning a boolean value, if true print warning with Yellow text, and if false
-     *                print message in CYAN text on terminal
+     * print message in CYAN text on terminal
      **/
 
     public static void message(String message, boolean warning) {

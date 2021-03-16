@@ -3,22 +3,24 @@ package Main.application.controllers;
 
 import Main.application.view.Menu;
 import Main.application.view.ToDoList;
+
 import java.util.Scanner;
 
 /**
  * This is the Menu Class and it contains various
  * display Menu options and messages
- *
  * @author Yazan Abbas
  * @since
  **/
 
 public class ManageTask {
 
-    /** this method was created to select a specific Task from todoList and perform edits on
-        @param selectedTask Task number that is selected by user from given list to perform edits on
-        @throws NullPointerException if task number of given as empty string or null
-        @throws ArrayIndexOutOfBoundsException if task number does not fall in index range of todoList **/
+    /**
+     * this method was created to select a specific Task from todoList and perform edits on
+     * @param selectedTask Task number that is selected by user from given list to perform edits on
+     * @throws NullPointerException if task number of given as empty string or null
+     * @throws ArrayIndexOutOfBoundsException if task number does not fall in index range of todoList
+     **/
 
 
     public static void actOnTask(String selectedTask) throws NullPointerException {

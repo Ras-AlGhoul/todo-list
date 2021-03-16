@@ -1,22 +1,25 @@
 package Main.application.controllers;
+
 import Main.application.view.Menu;
+
 import java.time.LocalDate;
 import java.util.Scanner;
 
 /**
  * This is the Menu Class and it contains various
  * display Menu options and messages
- *
  * @author Yazan Abbas
  * @since
  **/
 
 public class EditTask {
 
-  /** this method is designed to read the value from user
-     and update a given Task in the todoList of Tasks
-     @param task the task parameter value need to be updated with user input
-     @return true, if the Tasks object is updated in todoList, otherwise false  **/
+    /**
+     * this method is designed to read the value from user
+     * and update a given Task in the todoList of Tasks
+     * @param task the task parameter value need to be updated with user input
+     * @return true, if the Tasks object is updated in todoList, otherwise false
+     **/
 
     public static boolean updateTask(Task task) {
         Scanner scan = new Scanner(System.in);
