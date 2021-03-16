@@ -1,4 +1,5 @@
 package Main.application.view;
+<<<<<<< HEAD:src/Main/application/view/Menu.java
 
 /**
   This is the Menu Class and it contains various
@@ -8,6 +9,8 @@ package Main.application.view;
   @since
   @author Yazan Abbas
  **/
+=======
+>>>>>>> master:src/Main/application/app/Menu.java
 
 public class Menu {
 
@@ -18,6 +21,7 @@ public class Menu {
     //Created final field to hold code to change the text font color to Yellow
     public static final String YELLOW = "\u001B[33m";
 
+<<<<<<< HEAD:src/Main/application/view/Menu.java
 <<<<<<< HEAD:src/Main/application/app/Menu.java
     /** Created this method to display the main menu on
         terminal to display all options for user.
@@ -26,6 +30,8 @@ public class Menu {
 
 =======
 >>>>>>> origin/master:src/Main/application/view/Menu.java
+=======
+>>>>>>> master:src/Main/application/app/Menu.java
     public static void menu(int incompletedTaskCount, int doneTaskCount) {
         System.out.println("\nMAIN MENU");
         System.out.println("########\n");
@@ -96,6 +102,7 @@ public class Menu {
         System.out.print(RESET);
     }
 
+<<<<<<< HEAD:src/Main/application/view/Menu.java
 <<<<<<< HEAD:src/Main/application/app/Menu.java
     /** Created this method to display any message in CYAN or YELLOW text on terminal
        @param message a text message as String
@@ -108,6 +115,10 @@ public class Menu {
     public static void message(String message, boolean warning) {
         System.out.println(warning ? CYAN : YELLOW);
 >>>>>>> origin/master:src/Main/application/view/Menu.java
+=======
+    public static void message(String message, boolean warning) {
+        System.out.println(warning ? CYAN : YELLOW);
+>>>>>>> master:src/Main/application/app/Menu.java
         System.out.println("===> " + message);
         System.out.println(RESET);
     }

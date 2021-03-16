@@ -1,5 +1,6 @@
 package Main.application.view;
 
+<<<<<<< HEAD:src/Main/application/view/ToDoList.java
 <<<<<<< HEAD:src/Main/application/app/ToDoList.java
 import Main.application.actions.CreateTask;
 import Main.application.actions.Display;
@@ -9,6 +10,9 @@ import Main.application.save_read.StoreData;
 =======
 import Main.application.controllers.*;
 >>>>>>> origin/master:src/Main/application/view/ToDoList.java
+=======
+import Main.application.controllers.*;
+>>>>>>> master:src/Main/application/app/ToDoList.java
 
 import java.util.ArrayList;
 import java.util.Scanner;

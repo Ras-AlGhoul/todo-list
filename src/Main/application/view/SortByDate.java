@@ -4,6 +4,7 @@ import Main.application.controllers.Task;
 
 import java.util.Comparator;
 
+<<<<<<< HEAD
 /**
  * This is the Menu Class and it contains various
  * display Menu options and messages
@@ -18,6 +19,10 @@ public class SortByDate {
      this method was implemented to give the user the choice of displaying
      the contents of the todoList by date **/
 
+=======
+public class SortByDate {
+
+>>>>>>> master
     public static void sortByDate() {
 
         String displayFormat = "%-10s %-35s %-20s %-10s";

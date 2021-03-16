@@ -1,10 +1,13 @@
 package Main.application.controllers;
 
+<<<<<<< HEAD:src/Main/application/controllers/CreateTask.java
 <<<<<<< HEAD:src/Main/application/actions/CreateTask.java
 import Main.application.app.Menu;
 import Main.application.app.Task;
 import Main.application.app.ToDoList;
 =======
+=======
+>>>>>>> master:src/Main/application/actions/CreateTask.java
 import Main.application.view.Menu;
 import Main.application.view.ToDoList;
 

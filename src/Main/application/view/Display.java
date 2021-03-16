@@ -1,26 +1,7 @@
-<<<<<<< HEAD:src/Main/application/actions/Display.java
-package Main.application.actions;
-
-import Main.application.app.Menu;
-import Main.application.app.ToDoList;
-=======
 package Main.application.view;
->>>>>>> origin/master:src/Main/application/view/Display.java
 
-/**
- * This is the Menu Class and it contains various
- * display Menu options and messages
- *
- * @author Yazan Abbas
- * @since
- **/
 
 public class Display {
-
-    /** this method is created to display the contents of todoList
-       @param sortBy a string holding a number, "2" for sorting by project,
-       otherwise it will sort by by date **/
-
     public static void displayTasks(String sortBy) {
 
         System.out.println("########################################################################");
@@ -37,8 +18,6 @@ public class Display {
             SortByDate.sortByDate();
         }
     }
-
-    /*this method was designed to display the contents of todoList with first column as task number*/
 
     public static void indexTasks() {
         String displayFormat = "%-4s%-35s %-20s %-10s %-10s";

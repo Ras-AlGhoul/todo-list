@@ -1,12 +1,7 @@
 package Main.application.controllers;
-
-<<<<<<< HEAD:src/Main/application/actions/EditTask.java
 import Main.application.app.Menu;
 import Main.application.app.Task;
-=======
 import Main.application.view.Menu;
-
->>>>>>> origin/master:src/Main/application/controllers/EditTask.java
 import java.time.LocalDate;
 import java.util.Scanner;
 

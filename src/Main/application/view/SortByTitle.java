@@ -1,6 +1,7 @@
 package Main.application.view;
 
 import Main.application.controllers.Task;
+<<<<<<< HEAD
 import java.util.Comparator;
 
 /**
@@ -14,6 +15,13 @@ public class SortByTitle {
     /**
      this method was implemented to give the user the choice of displaying
      the contents of the todoList by the title of the project **/
+=======
+
+import java.util.Comparator;
+
+public class SortByTitle {
+
+>>>>>>> master
     public static void sortByTitle() {
         String displayFormat = "%-20s %-35s %-10s %-10s";
 
